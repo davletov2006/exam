@@ -229,7 +229,158 @@ img {
 
   gap: 9px;
 }
+.program{
+  margin-top: 80px;
+}
 
+.program__images{
+  position: relative;
+
+}
+
+.all__cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.image__text{
+  position: absolute;
+  bottom: 26px;
+  padding: 0 24px;
+}
+
+.program__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 47px;
+  color: #000000;
+  
+}
+
+.program__span{
+  color: #FF8541;
+}
+
+.program__text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.program__button{
+  background-color: transparent;
+  border: 1px solid #555351;
+  border-radius: 8px;
+  padding: 18px 36px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1C1917;
+}
+
+.program__button:hover{
+  background-color: #FF8541;
+  color: white;
+  transition: .2s ease;
+  border: 1px solid #FF8541;
+}
+
+.program__location{
+  display: flex;
+  align-items: center;
+  
+  gap: 9px;
+}
+
+.all__text{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 12px;
+}
+
+.image__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  width: 187px;
+  color: #FFFFFF;
+}
+
+.image__subtitle{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+ 
+}
+
+.magistratura{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+
+
+.news{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.news__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 47px;
+  color: #000000;
+}
+
+.card__text{
+  background: #F9F8F6;
+  border-radius: 16px;
+  width: 337px;
+  height: 200px;
+  padding: 24px;
+ 
+}
+
+.card__title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+.card__subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #555351;
+  margin-bottom: 47px;
+}
+
+.cards{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 .footer {
   position: relative;
 }
